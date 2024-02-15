@@ -7,7 +7,7 @@ spec:
     name: in-cluster
     namespace: argocd
   source:
-    path: 
+    path: bootstrap
     repoURL: 'https://github.com/gena-pm/argocd-test1.git'
     targetRevision: HEAD
   project: default
